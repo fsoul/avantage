@@ -416,7 +416,14 @@ function zerif_register_widgets() {
     endforeach;
 	
 }
-
+function focusTitle($title)
+{
+    $tmp = explode(' ', $title);
+    if(count($tmp)<3) {
+        $title = $tmp[0]."<br>".$tmp[1];
+    }
+    return $title;
+}
 /**
  * Add default widgets
  */

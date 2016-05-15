@@ -1,3 +1,4 @@
+@import "bootstrap/css/bootstrap.min.css";
 /*
 Theme Name: Zerif Lite
 Theme URI: http://themeisle.com/themes/zerif-lite/
@@ -1852,6 +1853,7 @@ ul.nav > li.current_page_item.current > a:before {
 	background: #f7d861;
 }
 .focus-box h3 {
+	height: 50px;
 	margin-bottom: 15px;
 	color: #404040;
 	position: relative;
@@ -6465,4 +6467,46 @@ body.custom-background {
 	to {
 		transform:rotate(360deg);
 	}
+}
+.table_p{
+	margin: 0 !important;
+}
+#price{
+	padding: 30px 0 10px 0;
+}
+.table-striped td{
+	padding: 0 10px;
+}
+.indent{
+	text-indent: 20px;
+}
+.rowspan8{
+	position: relative;
+}
+.rowspan8>span{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 50%;
+	left: 0;
+	margin-top: -16px;
+}
+.overhead{
+	text-align: center;
+	font-weight: bold;
+}
+.cell-right{
+	text-align: right;
+}
+.head, .head>td{
+	font-weight: bold;
+}
+.head>span, ul{
+	font-weight: normal;
+}
+ul.sub-menu li{
+	padding-left: 15px !important;
+}
+ul.sub-menu{
+	border-radius: 4px;
 }
